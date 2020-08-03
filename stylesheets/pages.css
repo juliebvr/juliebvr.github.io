@@ -100,7 +100,7 @@ a:hover {
 }
 
 .photowagon {
-  width: 15%;
+  max-width: 15%;
 }
 
 .whats {
@@ -347,3 +347,6 @@ h2 {
   margin-bottom: 50px;
 }
 
+img {
+  max-width: 100%
+}
