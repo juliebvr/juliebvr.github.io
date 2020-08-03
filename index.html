@@ -1,6 +1,6 @@
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="pages.css" />
+    <link type="text/css" rel="stylesheet" href="stylesheets/pages.css" />
   </head>
   <body>
     <div id="haut"></div>
@@ -31,7 +31,7 @@
         <div class="story">
           <h1>About Me</h1>
           <div class="container-story">
-            <%= image_tag "julie.jpg", width: 300%>
+            <img src="images/julie.jpg" alt="photo Julie" class="photoself">
             <p class="aboutme">
               With a bachelor's degree in customer relations, I started to travel
               around the world with the desire to discover new culture, and learn
@@ -44,13 +44,13 @@
             </p>
           </div>
             <div class="wagon-logo">
-              <%= image_tag "lewagon_logo.png", width: 80%>
+              <img src="images/lewagon_logo.png" alt="Logo le wagon" class="photowagon">
             </div>
         </div>
         <div id="looking" class="whats"></div>
           <div class="looking">
             <h1>What i'm looking for</h1>
-            <p class="aboutme">
+            <p class="aboutme2">
               I am now looking for a job as a UI UX Designer, to learn new skills
               and gain confidence in what I want to do.
             </p>
@@ -78,18 +78,18 @@
         <h1>My Achievements</h1>
         <a href="https://oenoplace.com/">Oenoplace</a>
         <div class="photo">
-          <%= image_tag "oenoplacefigma.png", width: 300%>
+          <img src="images/oenoplacefigma.png" alt="oenoplace figma" class="photowork">
           <div class="work-description">
             <p class="description-work">
              Oenoplace is my first website, created with my wonderful team
-              during our training at Le Wagon. It’s a wine resale site.
+              during our training at Le Wagon. It is a wine resale site.
             </p>
           </div>
         </div>
           <div>
             <h2>Peetgo</h2>
             <div class="photo">
-              <%= image_tag "peetgofigma.png", width: 300%>
+              <img src="images/peetgofigma.png" alt="peetgo figma" class="photowork">
               <div class="work-description">
                 <p class="description-work">
                 Peetgo is my second website, still in progress. It's a website to
@@ -241,6 +241,6 @@
           </div>
         </div>
       </div>
-      <footer class="footer">Made with ❤️ by myself</footer>
+      <footer class="footer">Made by myself</footer>
   </body>
 </html>
