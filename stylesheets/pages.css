@@ -135,7 +135,6 @@ a {
 
 .aboutme2 {
   width: 400px;
-  height: 45px;
   background: white;
   box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -152,9 +151,9 @@ a {
   padding-bottom: 150px;
 }
 
-.work h2 {
+/*.work h2 {
   text-decoration: underline;
-}
+}*/
 
 .work a {
   color: red;
@@ -163,6 +162,7 @@ a {
   margin-bottom: 50px;
   font-size: 24px;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .photo {
